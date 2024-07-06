@@ -1,13 +1,15 @@
 #include <iostream>
 using namespace std;
 
-int main()
+int main() // you may type whatever you want
 {
 	cout << "Enter A and B:\n";
 	int a, b;
 	cin >> a >> b;
 	cout << "A + B = " << a + b << '\n'
-		<< "A - B = " << a - b << '\n';
+		<< "A - B = " << a - b << '\n'
+		<< "A * B = " << a * b << '\n'
+		<< "A * B = " << a * b << '\n';
 
 	return 0;
 }
