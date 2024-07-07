@@ -4,7 +4,7 @@ using namespace std;
 int main() // you may type whatever you want
 {
 	cout << "Enter A and B:\n";
-	int a, b;
+	double a, b;
 	cin >> a >> b;
 	int max = a > b ? a : b;
 	int min = a < b ? a : b;
@@ -12,8 +12,8 @@ int main() // you may type whatever you want
 		<< "A - B = " << a - b << '\n'
 		<< "A * B = " << a * b << '\n'
 		<< "A / B = " << a / b << '\n'
-		<< "MAX: " << max << '\n'
-		<< "MIN: " << min << '\n';
+		<< "MAX: " << max << '\n';
+		//<< "MIN: " << min << '\n';
 
 	return 0;
 }
